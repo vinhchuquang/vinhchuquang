@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Chu Quang Vinh — Data &amp; AI Agent Engineer</title>
+  <desc id="d">Data pipelines and AI agents: Sources → Kafka / Airflow → Spark / dbt → Gold → AI Agent.</desc>
+  <style>
+    .bg { fill: #f7f8fb; }
+    .frame { fill: none; stroke: #e2e6ef; }
+    .label { fill: #2563eb; font: 600 15px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 3px; }
+    .name { fill: #0f172a; font: 700 52px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .tag { fill: #475569; font: 400 19px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .chip { fill: #ffffff; stroke: #cbd5e1; }
+    .chip-accent { fill: #2563eb; stroke: #2563eb; }
+    .chip-text { fill: #1e293b; font: 600 14px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .chip-text-accent { fill: #ffffff; font: 600 14px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .wire { stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 6 6; fill: none; }
+    .flow { animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .frame { stroke: #30363d; }
+      .label { fill: #58a6ff; }
+      .name { fill: #f0f6fc; }
+      .tag { fill: #8b949e; }
+      .chip { fill: #161b22; stroke: #30363d; }
+      .chip-accent { fill: #1f6feb; stroke: #1f6feb; }
+      .chip-text { fill: #e6edf3; }
+      .wire { stroke: #484f58; }
+    }
+  </style>
+
+  <rect class="bg" width="1200" height="300" rx="18"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="299" rx="18"/>
+
+  <text class="label" x="56" y="92">DATA &amp; AI AGENT ENGINEER</text>
+  <text class="name" x="56" y="152">Chu Quang Vinh</text>
+  <text class="tag" x="56" y="200">Building data pipelines and AI agents for businesses.</text>
+
+  <!-- pipeline: sources → ingest → transform → gold → agent -->
+  <path class="wire flow" d="M820 60 V240"/>
+  <g>
+    <rect class="chip" x="730" y="36" width="180" height="36" rx="18"/>
+    <text class="chip-text" x="820" y="59" text-anchor="middle">Data sources</text>
+    <rect class="chip" x="730" y="82" width="180" height="36" rx="18"/>
+    <text class="chip-text" x="820" y="105" text-anchor="middle">Kafka · Airflow</text>
+    <rect class="chip" x="730" y="128" width="180" height="36" rx="18"/>
+    <text class="chip-text" x="820" y="151" text-anchor="middle">Spark · dbt</text>
+    <rect class="chip" x="730" y="174" width="180" height="36" rx="18"/>
+    <text class="chip-text" x="820" y="197" text-anchor="middle">Gold · Knowledge base</text>
+    <rect class="chip-accent" x="730" y="220" width="180" height="36" rx="18"/>
+    <text class="chip-text-accent" x="820" y="243" text-anchor="middle">AI Agent</text>
+  </g>
+
+  <g>
+    <path class="wire" d="M910 238 H960 M935 238 V146 H960 M935 192 H960"/>
+    <rect class="chip" x="960" y="128" width="190" height="36" rx="18"/>
+    <text class="chip-text" x="1055" y="151" text-anchor="middle">RAG · text-to-SQL</text>
+    <rect class="chip" x="960" y="174" width="190" height="36" rx="18"/>
+    <text class="chip-text" x="1055" y="197" text-anchor="middle">Guardrail · Eval</text>
+    <rect class="chip" x="960" y="220" width="190" height="36" rx="18"/>
+    <text class="chip-text" x="1055" y="243" text-anchor="middle">Support chatbot</text>
+  </g>
+</svg>
