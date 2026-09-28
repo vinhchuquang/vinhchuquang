@@ -15,13 +15,7 @@
 
 ## About
 
-I work on data engineering and AI agents: building data pipelines (Kafka, Spark, dbt, Airflow) and agents that answer on top of that data (RAG, text-to-SQL, tool calling).
-
-## 💼 Production work — support chatbot on [comacpro.net](https://comacpro.net)
-
-A chatbot that answers customers on the website of a construction equipment company, in multiple languages, based on the product documentation.
-
-👉 **Try it at [comacpro.net](https://comacpro.net)** — the chat button in the corner. Technical details belong to the company and are not public.
+Data Engineer with 2 years of experience, based in Hà Nội. I build data pipelines (Airflow, Kafka, Spark, dbt) and AI agents that answer on top of that data (RAG, text-to-SQL, tool calling).
 
 ## 🧪 Personal projects
 
@@ -47,10 +41,11 @@ A chatbot that answers customers on the website of a construction equipment comp
 
 - [realtime_fraud_detection](https://github.com/vinhchuquang/realtime_fraud_detection) — real-time transaction fraud detection: Kafka, Spark Streaming, PostgreSQL, Elasticsearch, Grafana.
 - [youtube_analytics](https://github.com/vinhchuquang/youtube_analytics) — YouTube API → Snowflake, dbt Bronze/Silver/Gold models, orchestrated with Airflow (Astro).
+- [Prestige DMC](https://prestigevndmc.com) — production travel platform: Express + PostgreSQL backend (82 endpoints, 19 tables), deployed with Docker Compose, GitHub Actions, GHCR, Traefik and Cloudflare Tunnel.
 
-## 🌐 Open-source — [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · ⭐ 29.6k
+## 🌐 Open-source — [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · ⭐ 30.7k
 
-Tencent's open-source RAG / agent platform. I fix bugs and propose features upstream. As of 2026-09-24: **2 PRs merged, 2 in review, 10 issues**.
+Tencent's open-source RAG / agent platform. I fix bugs and propose features upstream. As of 2026-09-28: **2 PRs merged, 2 in review, 10 issues**.
 
 | PR | Status | What |
 |---|---|---|
@@ -63,10 +58,15 @@ Notable issues: carry the user's own language into the prompt on IM channels ([#
 
 ## 🛠️ Tech stack
 
-- **Data:** Python, SQL, Kafka, Spark Structured Streaming, dbt, Airflow, DuckDB, PostgreSQL, Snowflake, MinIO, Elasticsearch
-- **AI / agents:** RAG, text-to-SQL, tool calling, MCP, `sqlglot` guardrails, benchmarking (Spider), OpenAI API
-- **Apps & infra:** FastAPI, Go, Vue, Docker, Cloudflare Workers + D1, GitHub Actions
+- **Data:** Python, SQL, Airflow, dbt, Kafka, Spark, PostgreSQL, Snowflake, DuckDB, AWS S3, Playwright, Scrapy
+- **AI / agents:** RAG, text-to-SQL, tool calling, MCP, OpenAI API, n8n
+- **Infra:** FastAPI, Docker, Jenkins, GitHub Actions, Traefik, Grafana
+
+## 🎓 Education
+
+**HUST** — Mathematics & Informatics, 2022 – present
 
 ## 📫 Contact
 
 - Email: chuquangvinh.work@gmail.com
+- LinkedIn: [linkedin.com/in/chu-vinh](https://www.linkedin.com/in/chu-vinh)

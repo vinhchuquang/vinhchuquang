@@ -15,13 +15,7 @@
 
 ## Giới thiệu
 
-Tôi làm data engineering và AI agent: xây pipeline dữ liệu (Kafka, Spark, dbt, Airflow) và agent trả lời trên dữ liệu đó (RAG, text-to-SQL, tool calling).
-
-## 💼 Dự án thực tế — Chatbot CSKH trên [comacpro.net](https://comacpro.net)
-
-Chatbot trả lời khách hàng trên website của một doanh nghiệp thiết bị xây dựng, hỗ trợ nhiều ngôn ngữ và trả lời dựa trên tài liệu sản phẩm.
-
-👉 **Thử tại [comacpro.net](https://comacpro.net)** — nút chat ở góc màn hình. Chi tiết kỹ thuật thuộc công ty nên không public.
+Data Engineer với 2 năm kinh nghiệm, tại Hà Nội. Tôi xây pipeline dữ liệu (Airflow, Kafka, Spark, dbt) và AI agent trả lời trên dữ liệu đó (RAG, text-to-SQL, tool calling).
 
 ## 🧪 Dự án cá nhân
 
@@ -47,10 +41,11 @@ Chatbot trả lời khách hàng trên website của một doanh nghiệp thiế
 
 - [realtime_fraud_detection](https://github.com/vinhchuquang/realtime_fraud_detection) — phát hiện gian lận giao dịch realtime: Kafka, Spark Streaming, PostgreSQL, Elasticsearch, Grafana.
 - [youtube_analytics](https://github.com/vinhchuquang/youtube_analytics) — YouTube API → Snowflake, mô hình dbt Bronze/Silver/Gold, điều phối bằng Airflow (Astro).
+- [Prestige DMC](https://prestigevndmc.com) — nền tảng du lịch chạy production: backend Express + PostgreSQL (82 endpoint, 19 bảng), triển khai bằng Docker Compose, GitHub Actions, GHCR, Traefik và Cloudflare Tunnel.
 
-## 🌐 Đóng góp open-source — [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · ⭐ 29.6k
+## 🌐 Đóng góp open-source — [Tencent/WeKnora](https://github.com/Tencent/WeKnora) · ⭐ 30.7k
 
-Nền tảng RAG / agent mã nguồn mở của Tencent. Tôi sửa lỗi và đề xuất tính năng rồi gửi lại upstream. Tính đến 2026-09-24: **2 PR đã merge, 2 PR đang review, 10 issue**.
+Nền tảng RAG / agent mã nguồn mở của Tencent. Tôi sửa lỗi và đề xuất tính năng rồi gửi lại upstream. Tính đến 2026-09-28: **2 PR đã merge, 2 PR đang review, 10 issue**.
 
 | PR | Trạng thái | Nội dung |
 |---|---|---|
@@ -63,10 +58,15 @@ Issue đáng chú ý: đưa ngôn ngữ của người dùng vào prompt trên k
 
 ## 🛠️ Tech stack
 
-- **Dữ liệu:** Python, SQL, Kafka, Spark Structured Streaming, dbt, Airflow, DuckDB, PostgreSQL, Snowflake, MinIO, Elasticsearch
-- **AI / agent:** RAG, text-to-SQL, tool calling, MCP, guardrail `sqlglot`, benchmark (Spider), OpenAI API
-- **Ứng dụng & hạ tầng:** FastAPI, Go, Vue, Docker, Cloudflare Workers + D1, GitHub Actions
+- **Dữ liệu:** Python, SQL, Airflow, dbt, Kafka, Spark, PostgreSQL, Snowflake, DuckDB, AWS S3, Playwright, Scrapy
+- **AI / agent:** RAG, text-to-SQL, tool calling, MCP, OpenAI API, n8n
+- **Hạ tầng:** FastAPI, Docker, Jenkins, GitHub Actions, Traefik, Grafana
+
+## 🎓 Học vấn
+
+**Đại học Bách khoa Hà Nội (HUST)** — Toán Tin, 2022 – nay
 
 ## 📫 Liên hệ
 
 - Email: chuquangvinh.work@gmail.com
+- LinkedIn: [linkedin.com/in/chu-vinh](https://www.linkedin.com/in/chu-vinh)
